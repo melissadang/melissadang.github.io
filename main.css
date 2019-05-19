@@ -1,9 +1,10 @@
 /*google fonts*/
 @import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Nanum+Gothic');
 
 body {
-  font-family: 'Nanum Gothic', 'Raleway', Helvetica, Arial, sans-serif;
+  font-family: 'Montserrat', 'Nanum Gothic', 'Raleway', Helvetica, Arial, sans-serif;
   margin: auto;
   max-width: 960px;
   min-width: 500px;

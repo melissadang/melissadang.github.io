@@ -29,6 +29,10 @@
 
 /* =Common Styles
 -------------------------------------------------------------- */
+/*google fonts*/
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Nanum+Gothic');
 
 @font-face {
     font-family: 'azedobold';
@@ -51,7 +55,7 @@ html {
 body {
     overflow-x: hidden !important;
     -webkit-font-smoothing: antialiased;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 ::-webkit-scrollbar {
     width: 10px;
@@ -87,7 +91,7 @@ body {
     color: #787878;
     font-size: 14px;
     letter-spacing: 1pt;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 :-moz-placeholder {
     /* Firefox 18- */
@@ -95,7 +99,7 @@ body {
     color: #787878;
     font-size: 14px;
     letter-spacing: 1pt;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 ::-moz-placeholder {
     /* Firefox 19+ */
@@ -103,13 +107,13 @@ body {
     color: #787878;
     font-size: 14px;
     letter-spacing: 1pt;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 :-ms-input-placeholder {
     color: #787878;
     font-size: 14px;
     letter-spacing: 1pt;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 /* =Typography
 -------------------------------------------------------------- */
@@ -183,7 +187,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Lekton', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     letter-spacing: 1.3pt;
     color: #111111;
     clear: both;
@@ -263,7 +267,7 @@ ul.sublist {
     margin: 0;
 }
 .main-title h6 {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 .slogan {
     display: block;
@@ -298,7 +302,7 @@ ul.sublist {
     color: #111111;
     font-weight: 100;
     font-size: 18px;
-    font-family: 'Lekton', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     border: 1px solid #f4f4f4;
     display: inline-block;
     width: 100%;
@@ -489,7 +493,7 @@ a:hover>span.site-name{
     margin-left: 6%;
 }
 .slider-description-inner h1 {
-    font-family: 'azedobold';
+    font-family: 'azedolight';
     font-size: 60px;
     letter-spacing: 8px;
 }
@@ -553,7 +557,7 @@ a:hover>span.site-name{
     background-color: #000;
 }
 .cd-headline.clip b {
-    font-family: 'Lekton', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     opacity: 0;
 }
 .cd-headline.clip b.is-visible {
@@ -581,8 +585,10 @@ a:hover>span.site-name{
 }
 .header-page .inner-content .header-content h1 {
     text-align: center;
-    font-size: 60px;
-    font-family: 'azedobold', sans-serif;
+    font-size: 50px;
+    font-family: 'Montserrat', sans-serif;
+    color: #333333;
+    font-weight: 500;
 }
 .header-page .inner-content .header-content hr {
     float: none;
@@ -831,7 +837,7 @@ svg {
 }
 .slide__text-heading {
     font-size: 48px;
-    font-family: 'azedobold';
+    font-family: 'Montserrat';
     text-transform: uppercase;
     font-weight: 800;
     dispay: block;
@@ -841,7 +847,7 @@ svg {
     letter-spacing: 4.5pt;
 }
 span.border-text {
-    font-family: 'azedolight';
+    font-family: 'Montserrat';
     font-weight: 100;
     color: #fff;
     border: 2px solid #fff;
@@ -875,7 +881,7 @@ span.border-text {
     font-size: 60px;
     font-weight: 100;
     line-height: 60px;
-    font-family: 'azedolight', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     letter-spacing: 2.5pt;
 }
 .slider-controls {
@@ -1816,7 +1822,7 @@ ul.client-thumb-2 li a img:hover{
     right: 0;
     margin: auto;
     height: 2px;
-    background-color: #81B0B4;
+    background-color: #333333;
     transition: all 300ms cubic-bezier(0.215, 0.61, 0.355, 1);
     -webkit-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0);
