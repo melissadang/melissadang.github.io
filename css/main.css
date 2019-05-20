@@ -493,12 +493,12 @@ a:hover>span.site-name{
     margin-left: 6%;
 }
 .slider-description-inner h1 {
-    font-family: 'azedolight';
+    font-family: 'Montserrat';
     font-size: 60px;
     letter-spacing: 8px;
 }
 .slider-description-inner h1 span {
-    font-family: 'azedolight';
+    font-family: 'Montserrat';
     background: ##cfe1e2;
     padding: 22px;
     font-weight: 100;
@@ -588,7 +588,7 @@ a:hover>span.site-name{
     font-size: 50px;
     font-family: 'Montserrat', sans-serif;
     color: #333333;
-    font-weight: 500;
+    font-weight: 200;
 }
 .header-page .inner-content .header-content hr {
     float: none;
