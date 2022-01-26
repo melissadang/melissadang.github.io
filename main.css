@@ -105,12 +105,13 @@ body {
 
 /* Footer -------------------------------------------------------------- */
 .footer {
-    width: 100%;
-    background: #ffffff;
     min-height: 120px;
     margin-top: 64px;
     padding: 32px 360px 64px;
     text-align: left;
+    overflow: hidden;
+    color: #191D4B;
+    background-color: #ffffff;
 
 }
 ul.social-media {
